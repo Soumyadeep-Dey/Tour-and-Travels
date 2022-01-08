@@ -6,12 +6,15 @@
   grid-template-columns: 45% 45%;
   border: 1px solid black;
   color: white;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
 }
 .left {
   display: flex;
   color: white;
 }
-.right {
+/* .right {
   display: flex;
-  color: white;
-}
+  color: pink;
+} */

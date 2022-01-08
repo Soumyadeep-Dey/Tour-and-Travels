@@ -117,7 +117,7 @@ export default function Dashboard() {
               src="https://seoimgak.mmtcdn.com/blog/sites/default/files/hero2_28charter_1.jpg?6Aw5c27vU4CZHFxUGqPGmRfFhJZWkXek"
               alt="planeimage"
             />
-            <h6>#FlyLikeAStar with MakeMyTrip’s New Charter Flight Service!</h6>
+            <h6>#FlyLikeAStar with TralvelDunia’s New Charter Flight Service!</h6>
           </div>
           <div className="subblock">
             <img
@@ -143,7 +143,7 @@ export default function Dashboard() {
               alt="t2"
             />
             <h6>
-              Protect Yourself with MakeMyTrip’s Special COVID-19 Insurance
+              Protect Yourself with DreamTrip’s Special COVID-19 Insurance
               Policy!
             </h6>
           </div>
@@ -205,7 +205,7 @@ export default function Dashboard() {
         </div>
         {/* makemytrip div */}
         <div>
-          <h6>MAKEMYTRIP</h6>
+          <h6>TRAVELDUNIA</h6>
           <p>
             About Us
             <br />
@@ -274,14 +274,14 @@ export default function Dashboard() {
       </div>
       <div className="Third">
         <div>
-          <h5>Q - How do I make a flight booking on MakeMyTrip?</h5>
+          <h5>Q - How do I make a flight booking on TravelDunia?</h5>
           <p>
-            A: You can book a flight on MakeMyTrip in five easy steps: Head over
+            A: You can book a flight on TravelDunia in five easy steps: Head over
             to the MakeMyTrip flight booking page, Enter your departure and
             arrival destinations, Select your air travel dates, Choose from our
             wide range of flights based on your airfare preferences, Click on
             ‘Book Now’ and your air flight booking is done. Alternatively, you
-            can also use the MakeMyTrip app for your flight ticket booking.
+            can also use the TravelDunia app for your flight ticket booking.
             Download the MakeMyTrip app, Put in the details i.e. date of
             journey, departure and arrival destinations, travel class of your
             choice, Select on your best comfortable option and click on 'Book
@@ -289,7 +289,7 @@ export default function Dashboard() {
           </p>
         </div>
         <div>
-          <h5>Q - Can I avail domestic flight offers on MakeMyTrip?</h5>
+          <h5>Q - Can I avail domestic flight offers on TravelDunia?</h5>
           <p>
             A: Of course, you can. While making domestic flight bookings, you
             can avail any special offer that is active at that time. In
@@ -301,12 +301,12 @@ export default function Dashboard() {
           </p>
         </div>
         <div>
-          <h5>Q - How can I avail budget air tickets on MakeMyTrip?</h5>
+          <h5>Q - How can I avail budget air tickets on TravelDunia?</h5>
           <p>
             A: It’s super-easy to avail budget airfare while booking your flight
-            tickets on MakeMyTrip. Just select the ‘Price’ filter once the
+            tickets on TravelDunia. Just select the ‘Price’ filter once the
             available flight options are displayed and adjust according to your
-            convenience. On the MakeMyTrip app, you can select the downward
+            convenience. On the TravelDunia app, you can select the downward
             arrow, which will show the lowest airfare at the top and continue
             downward in ascending order.
           </p>
@@ -317,7 +317,7 @@ export default function Dashboard() {
             checkout?
           </h5>
           <p>
-            A: MakeMyTrip makes use of a world-class real-time reservation
+            A: TravelDunia makes use of a world-class real-time reservation
             database to list airfare and availability. As dynamic changes in
             airfare take place, or the available flight tickets sell out, the
             database reflects the changes in real-time. Hence, we suggest, you
@@ -327,12 +327,20 @@ export default function Dashboard() {
           </p>
         </div>
         <div className="fourth">
-          <div className="left">icons</div>
-          <div calssName="Right">
+          <div className="left">
             <h4>
-              2021 MAKEMYTRIP PVT. LTD.
+              Designed By
               <br />
-              Country India USA UAE
+              Soumyadeep Dey
+              <br />
+              Angshuman Bhowmick
+            </h4>
+          </div>
+          <div calssName="right">
+            <h4>
+              2022 TravelDunia PVT. LTD.
+              <br />
+              Country India 
             </h4>
           </div>
         </div>

@@ -105,17 +105,25 @@ export const Modal = ({ showModal, setShowModal }) => {
           {/* <animated.div style={animation}> */}
             <ModalWrapper showModal={showModal}>
               {/* <ModalImg src={require('./modal.jpg')} alt='camera' /> */}
-              <ModalContent>
-                <h2>Login / signup </h2><br />
-                <div style={{margin:'0 13px 0 0'}}>Email or mobile number</div>
+              {/* <ModalContent> */}
+                <div className='login'>
+                  <h1>Login</h1>
+                   <input type="text" name="email" placeholder="Enter Email"></input>
+                   <input type="password" name="password" placeholder="Enter Password"></input> 
+                   <div className="button">Login</div>
+                   <div>or</div>
+                   <div className="button">Register</div>
+                   <div style={{fontSize:'10px'}}>By proceeding, you agree to TravelDunia's  Privacy Policy, User Agreement and T&Cs</div>
+                </div>
+                {/* <h2>Login / Signup </h2><br />
+                <div style={{margin:'0 13px 0 0'}}>Email your Email id</div>
                 <div>
-                <input style={{width:'400px',height:'35px',marginTop:'10px'}}placeholder='enter email or mobile number'  />
+                <input style={{width:'400px',height:'35px',marginTop:'10px'}}placeholder='enter your email id'  />
                 </div><br/>
                 <button style={{backgroundColor:'blue'}}>CONTINUE</button><br />
                 <div style={{display:'flex',justifyContent:'center'}}>or Login/ Signup with</div><br />
-                <button style={{backgroundColor:'#fff',color:"#000",border:'1px solid #4a4a4a'}}>Login with Google</button><br />
-                <div style={{fontSize:'10px'}}>By proceeding, you agree to TravelDunia's  Privacy Policy, User Agreement and T&Cs</div>
-              </ModalContent>
+                <button style={{backgroundColor:'#fff',color:"#000",border:'1px solid #4a4a4a'}}>Login with Google</button><br /> */}
+              {/* </ModalContent> */}
               <CloseModalButton
                 aria-label='Close modal'
                 onClick={() => setShowModal(prev => !prev)}
